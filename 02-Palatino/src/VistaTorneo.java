@@ -18,7 +18,7 @@ public class VistaTorneo {
         System.out.print("Nombre del equipo: ");
         String nombre = sc.nextLine();
         System.out.print("Lugar: ");
-        int lugar = Integer.parseInt(sc.nextLine());
+        String lugar = sc.nextLine();
         System.out.print("Tiros de esquina: ");
         int tirosEsquina = Integer.parseInt(sc.nextLine());
         System.out.print("Juegos ganados: ");
