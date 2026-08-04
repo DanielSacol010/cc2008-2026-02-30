@@ -22,7 +22,7 @@ public class VentasControlador {
 
         while (ejecutando) {
             int opcion = vista.mostrarMenu();
-1
+
             switch (opcion) {
                 case 1 -> {
                     Comprador nuevo = vista.leerComprador();
