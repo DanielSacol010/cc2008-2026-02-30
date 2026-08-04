@@ -3,10 +3,9 @@ import java.util.Random;
 public class Ticket {
     private int numero;
 
-    // El constructor ya no recibe parámetros, se autogenera el número.
     public Ticket() {
         Random rand = new Random();
-        this.numero = rand.nextInt(15000) + 1; // Genera de 1 a 15,000
+        this.numero = rand.nextInt(15000) + 1;
     }
 
     public int getNumero() {
